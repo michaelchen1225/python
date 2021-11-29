@@ -23,3 +23,22 @@ X=3
 print(3)
 x=True #replaced 3 with True
 
+# type 偵測型態
+a = 100
+b = 12.345
+c = 1 + 5j
+d = 'hello, world'
+e = True
+print(type(a))    # <class 'int'>
+print(type(b))    # <class 'float'>
+print(type(c))    # <class 'complex'>
+print(type(d))    # <class 'str'>
+print(type(e))    # <class 'bool'>
+
+
+#可用在判斷中
+x=5
+if type(x)==str :
+    print(x)
+else:
+    print("fail")

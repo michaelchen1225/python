@@ -11,4 +11,13 @@
 sum=0
 for x in range(1,11):   #for 變數名 in list或string  range(n):一種列表,表示0到n-1的數字 ramge(5,10)=[5,6,7,8,9]
     sum=sum+x  #分別放入1--10
-print(sum)       
+print(sum)   
+print("lll")
+
+
+#補充: 可用 and or not 來解決問題
+a=1
+b=70
+if a<60 or b<60 :
+    print("someone was failed")
+

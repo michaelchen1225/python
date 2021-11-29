@@ -1,4 +1,4 @@
-x=5
-if x in range(3,5):
-    print("ghe")
-
+a=1
+b=70
+if a<60 or b<60 :
+    print("someone was failed")
