@@ -9,3 +9,4 @@ print('我考了%f' % 66)  #印出我考了66.000000
 print("我考了%f，進步了%.2f" % (66,12.369)) #%.xf 則是精確至小數點後x位
 #%s佔位字串，應用最多
 print("%s is the goat" %"michael Jordan")
+#注意: print(%d+1 %x) 是錯誤的,正確為print("%d" %(x+1))

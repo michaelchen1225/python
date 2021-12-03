@@ -9,15 +9,19 @@
 #for loop
 #1+2+...10
 sum=0
-for x in range(1,11):   #for 變數名 in list或string  range(n):一種列表,表示0到n-1的數字 ramge(5,10)=[5,6,7,8,9]
+for x in range(1,11):   #for 變數名 in list或string  
     sum=sum+x  #分別放入1--10
 print(sum)   
 print("lll")
 
 
-#補充: 可用 and or not 來解決問題
-a=1
-b=70
-if a<60 or b<60 :
-    print("someone was failed")
 
+#range
+#range(101)：可以产生0到100范围的整数，需要注意的是取不到101。
+#range(1, 101)：可以用来产生1到100范围的整数，相当于前面是闭区间后面是开区间。
+#range(1, 101, 2)：可以用来产生1到100的奇数，其中2是步长，即每次数值递增的值。
+#range(100, 0, -2)：可以用来产生100到1的偶数，其中-2是步长，即每次数字递减的值。
+
+#補充:使用時機
+#  明确的知道循环执行的次数,推荐使用for-in循环
+#  构造不知道具体循环次数的循环结构，推荐使用while循环。

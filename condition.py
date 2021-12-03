@@ -21,3 +21,9 @@ elif op=="/":
     print("n1/n2")
 else:
     print("不支援的運算")
+
+#補充: 可用 and or not 來解決問題
+a=1
+b=70
+if a<60 or b<60 :
+    print("someone was failed")
