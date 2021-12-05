@@ -3,7 +3,7 @@
 def multiply(x,y):
     print(x*y)
     return  x*y   #函式結束後如果沒有定義return,回傳None
-#呼叫函式
+#呼叫函式:
 value=multiply(3,5)
 print(value)  #因為函數有回傳值,所以會印出12和None
 
@@ -19,3 +19,9 @@ def calculate(max):      #1加到max
         sum+=x
     print(sum)
 calculate(21)
+print("--------------")
+
+#當然也可以沒有參數:
+def fortest():
+    print("just a test")
+fortest()
