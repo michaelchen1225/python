@@ -34,6 +34,7 @@ print(type(b))    # <class 'float'>
 print(type(c))    # <class 'complex'>
 print(type(d))    # <class 'str'>
 print(type(e))    # <class 'bool'>
+print("-----------")
 
 
 #可用在判斷中
@@ -42,3 +43,8 @@ if type(x)==str :
     print(x)
 else:
     print("fail")
+#補充:變數互換
+a=1
+b=2
+a,b=b,a
+print(a,b)
