@@ -43,7 +43,8 @@ if type(x)==str :
     print(x)
 else:
     print("fail")
-#補充:變數互換
+
+#補充:變數的互換
 a=1
 b=2
 a,b=b,a
