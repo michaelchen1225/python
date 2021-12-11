@@ -7,7 +7,7 @@ print(s.platform)     #同print(sys.platform)
 print("--------")
 
 #建立geometry模組,載入使用
-import geometry    #import模組名稱                                                                       
+import Function.geometry as geometry    #import模組名稱                                                                       
 result=geometry.dis(1,1,5,5)        #使用:模組名稱.模模組內函式
 print(result)
 
