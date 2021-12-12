@@ -1,8 +1,6 @@
-def gcdRecur(a, b):
-    if b==0:
-        return a
-    else:
-        return gcdRecur(b,a%b)
-print(gcdRecur(12921,4234))
-
-
+def gcdIter(a, b):
+    for x in range(1,b+1):
+        if a%x==0 and b%x==0:
+            xs=x
+    return xs
+print(gcdIter(12921,4234))
