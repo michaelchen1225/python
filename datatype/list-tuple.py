@@ -46,4 +46,7 @@ x=[1,2,3]
 x2=tuple(x)
 x3=list(x2)
 
+#使用 map() 函式將字串列表轉換為整數
+isbn="12345"
+isbn_int=list(map(int,isbn))    
 
