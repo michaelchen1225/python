@@ -36,7 +36,7 @@ print(ind[-3])#取倒數地3個
 print(ind[-3:])#取倒數前3個
 print(ind[::-2])#從尾開始每隔兩個取道頭
 print(ind[::-1])#印出頭尾相反的兩個字串
-round(2.6)  #四捨五入
+round(2.6)  #四捨五入   round(n1,n2)  n2:小數點第n2位
 
 str1 = 'hello, world!'
 # 计算字符串的长度

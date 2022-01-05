@@ -1,3 +1,2 @@
-code=[x for x in range(10,36)]
-aph=[A,B,C]
-print(code)
+x=[3,2,5,6]
+print(x.sort())
