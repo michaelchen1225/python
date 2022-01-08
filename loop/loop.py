@@ -25,3 +25,22 @@ print("lll")
 #補充:使用時機
 #  明确的知道循环执行的次数,推荐使用for-in循环
 #  构造不知道具体循环次数的循环结构，推荐使用while循环。
+
+
+#try/except
+#如果要避免程式因錯誤而停止，
+#可使用 try 和 except 進行保護 ( 或測試 )，
+#當 try 區段內的程式發生錯誤時，
+#就會執行 except 裡的內容，
+#如果 try 的程式沒有錯誤，就不會執行 except 的內容
+a = input('輸入數字：')
+print(a + 1)       # 發生錯誤
+print('hello')      # 因為發生錯誤，造成程式停止，所以後方程式無法執行
+
+#try!
+try:                      # 使用 try，測試內容是否正確
+  a = input('輸入數字：')
+  print(a + 1)
+except:                   # 如果 try 的內容發生錯誤，就執行 except 裡的內容
+  print('發生錯誤')
+print('hello')
