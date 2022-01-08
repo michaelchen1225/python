@@ -71,3 +71,10 @@ print(x.index(1))  #0
 t="test just a test"
 print(t.index("te"))  #0
 
+#注意:list不能用update
+
+#max()/min()
+#找極值
+x=[1,2,3]
+print(max(x))
+
