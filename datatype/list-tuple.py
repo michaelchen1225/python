@@ -78,3 +78,23 @@ print(t.index("te"))  #0
 x=[1,2,3]
 print(max(x))
 
+#基本觀念提醒:
+#切片[a:b]是取a到b-1
+
+#list.reverse()反轉
+x=[1,"ff",5,"89",90]
+x.reverse()
+print(x)
+
+#"".join(list_name):合併list中的元素,儲存在str中    !!!element must be str
+y=["tj","hiehg"]
+y="".join(y)  
+print(y)
+#可在""內加入想加入在中間的元素
+y=["tj","hiehg"]
+y="@".join(y)  
+print(y)
+
+#list.count(obj),obj -- 列表中统计的对象
+
+

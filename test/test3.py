@@ -1,8 +1,8 @@
-
-x={"s12":100,"s13":10,'s15':13,"s16":98}
-
-k=list(x.keys())
-v=list(x.values())
-h=max(v)
-l=min(v)
-print(h,l)
+import string
+c=string.punctuation
+print(c)
+x=["1","2","3","A","B","c","!"]
+for p in x:
+    if p in c:
+        x.remove(p)
+print(x)

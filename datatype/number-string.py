@@ -73,3 +73,32 @@ str3 = '  jackfrued@126.com '
 print(str3)
 # 获得字符串修剪左右两侧空格之后的拷贝
 print(str3.strip())
+
+#lower()/upper()/casefold()  only str can use these function!
+#lower:
+x="FSD"
+x=x.lower()
+print(x)
+#upper()
+x="fsd"
+x=x.upper()
+print(x)
+#casefold()類似lower
+
+#split("str",n):字串透過指定的分隔符號(str)對字串進行分割(n次)，分割後的字串會儲存在一個串列 list
+#無指定
+str1 = '1 2 3'
+print(str1)
+str2 = str1.split(' ')
+print(str2)
+print(str1.split())
+#指定字串
+str1 = '4,5,6'
+print(str1)
+str2 = str1.split(',')
+print(str2)
+
+#import string
+#!!!!!!!!!!!!!!!
+
+
